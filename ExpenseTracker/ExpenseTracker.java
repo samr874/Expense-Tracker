@@ -50,7 +50,10 @@ public class ExpenseTracker {
 			                
 			                break;
 			 
-			case "summary": ; break;
+			case "summary":  MonthlySummary monthlySummary = new MonthlySummary();
+			                 monthlySummary.processFile("D:\\Alephys - Assignment\\ExpenseIncome.txt");
+			                 monthlySummary.displaySummary();
+			                 break;
 			
 			
 			case "file": ; break;

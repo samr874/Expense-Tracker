@@ -3,8 +3,9 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.Serializable;
 
-public class Expense {
+public class Expense implements Serializable {
 	
 	private long expense;
 	private String category;
@@ -49,7 +50,7 @@ try (BufferedWriter writer = new BufferedWriter(new FileWriter("D:\\Alephys - As
 
     writer.write(saveExpenseLine); // Writes the structured text line to your .txt file
     writer.newLine();             // Adds a new line for the next record
-    System.out.println("Transaction written successfully in table format to .txt file: " + saveExpenseLine);
+    System.out.println(" saved your expense to the file ");
 } catch (IOException e) {
     System.err.println("Error writing to file: " + e.getMessage());
     e.printStackTrace();

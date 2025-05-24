@@ -4,8 +4,9 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.Serializable;
 
-public class Income {
+public class Income implements Serializable{
 	
 	private long income;
 	private String category;
@@ -35,7 +36,7 @@ public class Income {
 
 		    writer.write(saveExpenseLine); // Writes the structured text line to your .txt file
 		    writer.newLine();             // Adds a new line for the next record
-		    System.out.println("Transaction saved ");
+		    System.out.println("Income saved ");
 		} catch (IOException e) {
 		    System.err.println("Error writing to file: " + e.getMessage());
 		    e.printStackTrace();
