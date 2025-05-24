@@ -16,7 +16,9 @@ Enter the amount and category
 The value gets stored in the file Expense-Tracker.txt.
 ![image](https://github.com/user-attachments/assets/0286d323-2eb4-4d75-a943-3cecee7e715a)
 
-For printing the monthly summary[ExpenseIncome.txt](https://github.com/user-attachments/files/20423305/ExpenseIncome.txt)
+For printing the monthly summary
+![image](https://github.com/user-attachments/assets/633fc4e3-77a9-4807-9257-ff0067236e4a)
+
 
 To exit the program, type exit
 ![image](https://github.com/user-attachments/assets/21c24d50-b9ab-464d-99f2-799c055ae5e8)
