@@ -4,17 +4,18 @@ public class ExpenseTracker {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+		boolean wantToContinue = true;
 		
-		while(true)
+		
+		while(wantToContinue)
 		{
 			System.out.println("Welcome!! keep track of all your expenses");
 			
 			System.out.println("Enter your choice");
-			System.out.println("1. Enter the income");
-			System.out.println("2. Enter the expense");
-			System.out.println("3. Print monthly summary");
-			System.out.println("4. Upload the file");
-			System.out.println("5. Exit");
+			System.out.println("For income type income");
+			System.out.println("For expense type expense");
+			System.out.println("For summary type summary");
+			System.out.println("For exit type exit");
 			
 			
 			String choice = sc.next();
@@ -56,7 +57,11 @@ public class ExpenseTracker {
 			                 break;
 			
 			
-			case "file": ; break;
+			
+			case "exit":       System.out.println("Closing operations");
+                               wantToContinue=false;
+				                break;
+			
 			
 			
 			

@@ -1,0 +1,6 @@
+Income [income=100000, category=Salary]
+Expense [expense=25000, category=rent]
+Expense [expense=1000, category=Food]
+Income [income=10000, category=Salary]
+Income [income=100000, category=Salary]
+Expense [expense=25000, category=Food]
